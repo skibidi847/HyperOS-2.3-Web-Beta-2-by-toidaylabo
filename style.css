@@ -1,0 +1,561 @@
+#phone {
+            width: 310px;
+            height: 650px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 45px;
+            transform: translateX(-50%);
+            position: absolute;
+            left: 50%;
+            top: 25px;
+        }
+        #screenphone {
+            border-radius: 43px;
+            width: 306px;
+            height: 646.5px;
+            background-color: gray;
+            position: absolute;
+            top: 1.5px;
+            left: 2.3px;
+        }
+        #camera {
+            width: 22px;
+            height: 22px;
+            border-radius: 100px;
+            background-color: black;
+            position: absolute;
+            transform: translateX(-50%);
+            left: 50%;
+            top: 10px;
+        }
+        #lockscreen {
+            border-radius: 43px;
+            width: 296px;
+            height: 646.5px;
+            top: 1.5px;
+            left: 2.3px;
+        }
+        #dongho {
+            font-size: 50px;
+            font-family: sans-serif;
+            position: absolute;
+            transform: translateX(-50%);
+            top: 70px;
+            left: 50%;
+        }
+        #wallpaper {
+            width: 305.9px;
+            height: 646px;
+            border-radius: 43px;
+        }
+        #thanhcuchi {
+            background-color: rgb(0, 0, 0);
+            position: absolute;
+            width: 140px;
+            height: 7px;
+            border-radius: 20px;
+            top: 630px;
+            left: 85px;
+        }
+        .app1 {
+            width: 65px;
+            height: 65px;
+            position: absolute;
+            background-color: rgb(0, 255, 0);
+            border-radius: 16px;
+            top: 540px;
+            left: 10px;
+            transition: height 0.3s;
+        }
+        .app2 {
+            width: 65px;
+            height: 65px;
+            position: absolute;
+            background-color: rgb(0, 255, 0);
+            border-radius: 16px;
+            top: 540px;
+            left: 85px;
+        }
+        .app3 {
+            width: 65px;
+            height: 65px;
+            position: absolute;
+            background-color: rgb(0, 255, 0);
+            border-radius: 16px;
+            top: 540px;
+            left: 160px;
+        }
+        .app4 {
+            width: 65px;
+            height: 65px;
+            position: absolute;
+            background-color: rgba(0, 255, 0);
+            border-radius: 16px;
+            top: 540px;
+            left: 233px;
+        }
+        .app5 {
+            width: 65px;
+            height: 65px;
+            position: absolute;
+            background-color: rgb(0, 255, 0);
+            border-radius: 16px;
+            top: 440px;
+            left: 10px;
+        }
+        .app6 {
+            width: 65px;
+            height: 65px;
+            position: absolute;
+            background-color: rgb(0, 255, 0);
+            border-radius: 16px;
+            top: 440px;
+            left: 85px;
+        }
+        .app7 {
+            width: 65px;
+            height: 65px;
+            position: absolute;
+            background-color: rgb(0, 255, 0);
+            border-radius: 16px;
+            top: 440px;
+            left: 160px;
+        }
+        .app8 {
+            width: 65px;
+            height: 65px;
+            position: absolute;
+            background-color: rgb(0, 255, 0);
+            border-radius: 16px;
+            top: 440px;
+            left: 233px;
+        }
+        .app9 {
+            width: 65px;
+            height: 65px;
+            position: absolute;
+            background-color: rgb(0, 255, 0);
+            border-radius: 16px;
+            top: 365px;
+            left: 10px;
+        }
+        .app10 {
+            width: 65px;
+            height: 65px;
+            position: absolute;
+            background-color: rgb(0, 255, 0);
+            border-radius: 16px;
+            top: 365px;
+            left: 85px;
+        }
+        .app11 {
+            width: 65px;
+            height: 65px;
+            position: absolute;
+            background-color: rgb(0, 255, 0);
+            border-radius: 16px;
+            top: 365px;
+            left: 160px;
+        }
+        .app12 {
+            width: 65px;
+            height: 65px;
+            position: absolute;
+            background-color: rgb(0, 255, 0);
+            border-radius: 16px;
+            top: 365px;
+            left: 233px;
+            transition: transform 0.4s ease;
+        }
+        .animationapp {
+            transform: scaleX(4.77) scaleY(10.0);
+        }
+        #donghoapp {
+            width: 200px;
+            height: 120px;
+            position: absolute;
+            top: 90px;
+            left: 53px;
+            border-radius: 15px;
+        }
+        #nutnguonbox {
+            width: 15px;
+            height: 80px;
+            background-color: red;
+            border-radius: 15px;
+            position: absolute;
+            top: 225px;
+            left: 313px;
+        }
+        #nenchinhxungquanh {
+            background-color: gray;
+        }
+        #manhinhloading {
+            width: 100000000000000000px;
+            height: 1000000000000000000px;
+            background-color: gray;
+            position: absolute;
+            transform: translateX(-50%);
+            left: 50%;
+        }
+        #donghoapp1 {
+            font-size: 50px;
+            font-family: sans-serif;
+            transform: translateX(-50%);
+            position: absolute;
+            left: 50%;
+            top: 1px;
+        }
+        #thanhthongbao {
+            width: 300px;
+            height: 30px;
+            position: absolute;
+            transform: translateX(-50%);
+            border-radius: 44px;
+            left: 50%;
+        }
+        #thanhthongbao1 {
+            width: 300px;
+            height: 30px;
+            position: absolute;
+            transform: translateX(-50%);
+            border-radius: 44px;
+            left: 50%;
+        }
+        #donghot {
+            font-size: 15px;
+            font-family: sans-serif;
+            position: absolute;
+            top: -6px;
+            left: 24px;
+        }
+        #cucpinbox {
+            width: 30px;
+            height: 20px;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            border-radius: 7px;
+            top: 8px;
+            left: 245px;
+        }
+        #sopin {
+            font-family: sans-serif;
+            font-size: 14px;
+            position: absolute;
+            transform: translateX(-50%);
+            left: 50%;
+            top: -13px;
+        }
+        #settingapp {
+            width: 305.9px;
+            height: 646px;
+            background-color: rgb(235, 235, 235);
+            transform: opacity 0.5s ease;
+            border-radius: 44px;
+        }
+        #settingtext {
+            font-size: 30px;
+            font-family: sans-serif;
+            position: absolute;
+            top: 25px;
+            left: 20px;
+        }
+        #mydevicebox {
+            width: 280px;
+            height: 50px;
+            border-radius: 20px;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            transform: translateX(-50%);
+            left: 50%;
+            top: 110px;
+        }
+        #textmydevice {
+            font-size: 23px;
+            font-family: sans-serif;
+            position: absolute;
+            top: 4px;
+            left: 50px;
+        }
+        #stextmydevice {
+            font-size: 15px;
+            font-family: sans-serif;
+            position: absolute;
+            top: 29px;
+            left: 50px;
+            color: gray;
+        }
+        #imgmydevice {
+            width: 35px;
+            height: 35px;
+            border-radius: 100px;
+            background-color: gray;
+            position: absolute;
+            top: 7px;
+            left: 7px;
+        }
+        #phonemydevice {
+            width: 17px;
+            height: 25px;
+            border-radius: 5px;
+            background-color: white;
+            position: absolute;
+            top: 5px;
+            left: 9px;
+        }
+        #cameramydevice {
+            width: 4px;
+            height: 4px;
+            border-radius: 50px;
+            background-color: gray;
+            position: absolute;
+            top: 6px;
+            left: 15px;
+        }
+        #madeby {
+            font-family: sans-serif;
+            font-size: 13px;
+            position: absolute;
+            color: grey;
+            top: 53px;
+            left: 116px;
+        }
+        #bentrongmp {
+            width: 305.9px;
+            height: 646.6px;
+            background-color: rgb(12, 14, 22);
+            border-radius: 44px;
+            transition: transform 0.5s ease;
+        }
+        #HyperOS23img {
+            width: 306px;
+            border-radius: 43px;
+        }
+        #textphienban {
+            font-size: 15px;
+            font-family: sans-serif;
+            color: rgb(219, 219, 219);
+            position: absolute;
+            transform: translateX(-50%);
+            left: 50%;
+            top: 172px;
+        }
+        #boxdev {
+            width: 280px;
+            height: 55px;
+            background-color: rgb(50, 50, 50);
+            border-radius: 20px;
+            position: absolute;
+            transform: translateX(-50%);
+            left: 50%;
+            top: 335px;
+        }
+        #devtext {
+            font-size: 23px;
+            font-family: sans-serif;
+            color: white;
+            position: absolute;
+            left: 16px;
+            top: -16px;
+        }
+        #textdev {
+            font-size: 17px;
+            font-family: sans-serif;
+            color: rgb(202, 202, 202);
+            position: absolute;
+            left: 16px;
+            top: 14px;
+        }
+        #boxversion {
+            width: 280px;
+            height: 55px;
+            background-color: rgb(50, 50, 50);
+            border-radius: 20px;
+            position: absolute;
+            transform: translateX(-50%);
+            left: 50%;
+            top: 400px;
+        }
+        #Version {
+            font-size: 22px;
+            font-family: sans-serif;
+            color: white;
+            position: absolute;
+            left: 16px;
+            top: -16px;
+        }
+        #Versiontext {
+            font-size: 17px;
+            font-family: sans-serif;
+            color: rgb(192, 192, 192);
+            position: absolute;
+            left: 16px;
+            top: 14px;
+        }
+        #boxandroi {
+            width: 280px;
+            height: 55px;
+            background-color: rgb(50, 50, 50);
+            border-radius: 20px;
+            position: absolute;
+            transform: translateX(-50%);
+            left: 50%;
+            top: 465px;
+        }
+         #Androidtext {
+            font-size: 22px;
+            font-family: sans-serif;
+            color: white;
+            position: absolute;
+            left: 16px;
+            top: -16px;
+         }
+         #versionandroid {
+            font-size: 17px;
+            font-family: sans-serif;
+            color: rgb(192, 192, 192);
+            position: absolute;
+            left: 16px;
+            top: 14px;
+         }
+         #dongho1 {
+            font-size: 15px;
+            font-family: sans-serif;
+            color: whitesmoke;
+            position: absolute;
+            left: 25px;
+            top: -6px;
+         }
+         #iconsetting {
+            width: 65px;
+            height: 65px;
+            border-radius: 16px;
+         }
+         #nutnguon {
+            width: 20px;
+            height: 80px;
+            background-color: red;
+            border-radius: 15px;
+            position: absolute;
+            left: 314px;
+            top: 270px;
+         }
+          #bentrongmpsang {
+            width: 305.9px;
+            height: 646.6px;
+            background-color: rgb(197, 227, 241);
+            border-radius: 44px;
+            transition: opacity 0.5s ease;
+          }
+          .hidden {
+            opacity: 0;
+            pointer-events: none;
+          }
+          #textphienbansang {
+             font-size: 15px;
+            font-family: sans-serif;
+            color: rgb(39, 39, 39);
+            position: absolute;
+            transform: translateX(-50%);
+            left: 50%;
+            top: 172px;
+          }
+           #boxversionsang {
+            width: 280px;
+            height: 55px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+            position: absolute;
+            transform: translateX(-50%);
+            left: 50%;
+            top: 400px;
+        }
+        #Versionsang {
+            font-size: 22px;
+            font-family: sans-serif;
+            color: rgb(0, 0, 0);
+            position: absolute;
+            left: 16px;
+            top: -16px;
+        }
+        #Versiontextsang {
+            font-size: 17px;
+            font-family: sans-serif;
+            color: rgb(112, 112, 112);
+            position: absolute;
+            left: 16px;
+            top: 14px;
+        }
+         #boxdevsang {
+            width: 280px;
+            height: 55px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+            position: absolute;
+            transform: translateX(-50%);
+            left: 50%;
+            top: 335px;
+        }
+        #devtextsang {
+            font-size: 23px;
+            font-family: sans-serif;
+            color: rgb(0, 0, 0);
+            position: absolute;
+            left: 16px;
+            top: -16px;
+        }
+        #textdevsang {
+            font-size: 17px;
+            font-family: sans-serif;
+            color: rgb(112, 112, 112);
+            position: absolute;
+            left: 16px;
+            top: 14px;
+        }
+        #donghosang {
+            font-size: 15px;
+            font-family: sans-serif;
+            position: absolute;
+            top: -6px;
+            left: 24px;
+        }
+          #boxandroisang {
+            width: 280px;
+            height: 55px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+            position: absolute;
+            transform: translateX(-50%);
+            left: 50%;
+            top: 465px;
+        }
+         #Androidtextsang {
+            font-size: 22px;
+            font-family: sans-serif;
+            color: rgb(0, 0, 0);
+            position: absolute;
+            left: 16px;
+            top: -16px;
+         }
+         #versionandroidsang {
+            font-size: 17px;
+            font-family: sans-serif;
+            color: rgb(113, 113, 113);
+            position: absolute;
+            left: 16px;
+            top: 14px;
+         }
+         #thoatmpsang {
+            width: 60px;
+            height: 60px;
+            background-color: red;
+            position: absolute;
+            top: 40px;
+            left: 20px;
+         }
+         #Androidversionimg {
+            width: 310px;
+            height: 650px;
+            border-radius: 44px;
+            position: absolute;
+         }
+          
